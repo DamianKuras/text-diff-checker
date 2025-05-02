@@ -1,0 +1,16 @@
+{
+  "name": "text-diff-checker",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "author": "Damian Kuraś",
+  "license": "ISC",
+  "dependencies": {
+    "diff": "^7.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
